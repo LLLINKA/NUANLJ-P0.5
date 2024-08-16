@@ -1,0 +1,7 @@
+--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O2 --apcs=interwork --split_sections -I .\common\cmsis\CMSIS\Include -I .\common\cmsis\Device\ARM\CMSDK_CM0\Include -I .\common\retarget
+-I.\RTE\_GC1_Test
+-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM0\Include
+-IE:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0
+-D__UVISION_VERSION="523" -D_RTE_ -DARMCM0 -DCORTEX_M0
+-o .\objects\system_cmsdk_cm0.o --omf_browse .\objects\system_cmsdk_cm0.crf --depend .\objects\system_cmsdk_cm0.d --feedback ".\Objects\test.fed" "common\cmsis\Device\ARM\CMSDK_CM0\Source\system_CMSDK_CM0.c"

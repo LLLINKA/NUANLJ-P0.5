@@ -1,0 +1,11 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\source\main.c)(0x5E81AAC0)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections-I E:\项目资料\血糖芯片测试\GC1\software_20200325\software\nano_test\1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (RTE\Device\ARMCM0\startup_ARMCM0.s)(0x50B2CC4C)(--cpu Cortex-M0 --li -g --apcs=interwork -I E:\项目资料\血糖芯片测试\GC1\software_20200325\software\nano_test\1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "ARMCM0 SETA 1"--list .\listings\startup_armcm0.lst --xref -o .\objects\startup_armcm0.o --depend .\objects\startup_armcm0.d)
+F (RTE\Device\ARMCM0\system_ARMCM0.c)(0x55D41F08)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --split_sections-I E:\项目资料\血糖芯片测试\GC1\software_20200325\software\nano_test\1\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0-o .\objects\system_armcm0.o --omf_browse .\objects\system_armcm0.crf --depend .\objects\system_armcm0.d)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include\ARMCM0.h)(0x562075B4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include\system_ARMCM0.h)(0x55D41F08)

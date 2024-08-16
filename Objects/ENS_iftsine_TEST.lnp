@@ -1,0 +1,12 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\boost_select.o"
+".\objects\startup_cmsdk_cm0.o"
+".\objects\cmsdk_driver.o"
+".\objects\system_cmsdk_cm0.o"
+".\objects\uart_stdout.o"
+".\objects\retarget.o"
+--library_type=microlib --strict --scatter ".\Objects\ENS_iftsine_TEST.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ENS_iftsine_TEST.map" -o .\Objects\ENS_iftsine_TEST.axf

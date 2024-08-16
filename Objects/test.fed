@@ -1,0 +1,68 @@
+;#<FEEDBACK># ARM Linker, 5060422: Last Updated: Sat Nov 05 17:31:40 2022
+;VERSION 0.2
+;FILE cmsdk_driver.o
+CMSDK_ADC_DISABLE_ADC_EN_BIT <= USED 0
+CMSDK_ADC_INT_EN <= USED 0
+CMSDK_ADC_SetADC_EN_AND_STARTBIT <= USED 0
+CMSDK_ADC_SetCONT_CONV_MODE_EN <= USED 0
+CMSDK_ADC_Set_OVERRUN_MODE_EN <= USED 0
+CMSDK_ADC_Set_WAIT_MODE_EN <= USED 0
+CMSDK_RTC_Config_Alarm <= USED 0
+CMSDK_RTC_Config_PeriodWake <= USED 0
+CMSDK_RTC_Init_Calender <= USED 0
+CMSDK_SETADC_CONVINC_EOC <= USED 0
+CMSDK_SETADC_CONV_MODE_EN <= USED 0
+CMSDK_SET_ADCCLK_DIV_VAL <= USED 0
+CMSDK_SET_ADCSAMP_TIME <= USED 0
+CMSDK_SET_ADC_CHANNEL_SEL <= USED 0
+CMSDK_SPI_CTRL1_config <= USED 0
+CMSDK_SPI_CTRL2_config <= USED 0
+CMSDK_SPI_FCR_config <= USED 0
+CMSDK_SYSCON_DisableLSI_EN <= USED 0
+CMSDK_SYSCON_SetHCLK_DIV <= USED 0
+CMSDK_SYSCON_SetHSI_CTRL <= USED 0
+CMSDK_SYSCON_SetHSI_EN <= USED 0
+CMSDK_SYSCON_SetLFCLK_SEL <= USED 0
+CMSDK_SYSCON_SetLSE_EN <= USED 0
+CMSDK_SYSCON_SetMCO_SEL <= USED 0
+CMSDK_SYSCON_SetPCLK_DIV <= USED 0
+CMSDK_SYSCON_SetSYSCLK_SEL <= USED 0
+CMSDK_dualtimer_irq_clear <= USED 0
+CMSDK_dualtimer_setup_freerunning <= USED 0
+CMSDK_dualtimer_setup_oneshot <= USED 0
+CMSDK_dualtimer_setup_periodic <= USED 0
+CMSDK_dualtimer_start <= USED 0
+CMSDK_dualtimer_stop <= USED 0
+CMSDK_timer_ClearIRQ <= USED 0
+CMSDK_timer_DisableIRQ <= USED 0
+CMSDK_timer_EnableIRQ <= USED 0
+CMSDK_timer_GetReload <= USED 0
+CMSDK_timer_GetValue <= USED 0
+CMSDK_timer_Init <= USED 0
+CMSDK_timer_Init_ExtClock <= USED 0
+CMSDK_timer_Init_ExtEnable <= USED 0
+CMSDK_timer_SetReload <= USED 0
+CMSDK_timer_SetValue <= USED 0
+CMSDK_timer_StartTimer <= USED 0
+CMSDK_timer_StatusIRQ <= USED 0
+CMSDK_timer_StopTimer <= USED 0
+CMSDK_uart_SendChar <= USED 0
+CMSDK_uart_init <= USED 0
+__asm___14_CMSDK_driver_c_d007ca0f____REV16 <= USED 0
+__asm___14_CMSDK_driver_c_d007ca0f____REVSH <= USED 0
+;FILE main.o
+__asm___6_main_c_55c78d1a____REV16 <= USED 0
+__asm___6_main_c_55c78d1a____REVSH <= USED 0
+wavegen_driverA_sine_test <= USED 0
+;FILE retarget.o
+_sys_exit <= USED 0
+_ttywrch <= USED 0
+ferror <= USED 0
+;FILE startup_cmsdk_cm0.o
+;FILE system_cmsdk_cm0.o
+SystemCoreClockUpdate <= USED 0
+__asm___18_system_CMSDK_CM0_c_6b61f0cc____REV16 <= USED 0
+__asm___18_system_CMSDK_CM0_c_6b61f0cc____REVSH <= USED 0
+;FILE uart_stdout.o
+__asm___13_uart_stdout_c_2ecdab9e____REV16 <= USED 0
+__asm___13_uart_stdout_c_2ecdab9e____REVSH <= USED 0

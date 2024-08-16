@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 Administrator, 1, LIC=R4HV2-9QY5J-LV11I-TPKKD-39TM0-9BGNI
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  D:\STM32\KEIL\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.18.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+D:\灵络\新建文件夹\1、波形发生例程\5、ENS_iftsine_TEST\test.uvprojx
+Project File Date:  08/13/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\STM32\KEIL\ARM\ARMCC\Bin'
+Rebuild target 'GC1_Test'
+assembling startup_CMSDK_CM0.s...
+compiling retarget.c...
+compiling boost_select.c...
+compiling uart_stdout.c...
+compiling system_CMSDK_CM0.c...
+compiling main.c...
+source\main.c(26): warning:  #550-D: variable "rev_data" was set but never used
+  			uint8_t rev_data = 0;
+source\main.c: 1 warning, 0 errors
+compiling CMSDK_driver.c...
+linking...
+Program Size: Code=920 RO-data=224 RW-data=276 ZI-data=516  
+FromELF: creating hex file...
+After Build - User command #2: D:\STM32\KEIL\\ARM\ARMCC\bin\fromelf.exe --bin --output=Bin\ENS_iftsine_TEST.bin .\Objects\ENS_iftsine_TEST.axf
+".\Objects\ENS_iftsine_TEST.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\灵络\新建文件夹\1、波形发生例程\5、ENS_iftsine_TEST\RTE
+  D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

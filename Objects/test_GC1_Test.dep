@@ -1,0 +1,48 @@
+Dependencies for Project 'test', Target 'GC1_Test': (DO NOT MODIFY !)
+F (.\source\main.c)(0x66BD78AF)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common\cmsis\CMSIS\Include -I .\common\cmsis\Device\ARM\CMSDK_CM0\Include -I .\common\retarget -I .\source-I D:\灵络\新建文件夹\1、波形发生例程\5、ENS_iftsine_TEST\RTE-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0-D__UVISION_VERSION="518" -D_RTE_ -DARMCM0 -DCORTEX_M0-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\STM32\KEIL\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (.\common\retarget\uart_stdout.h)(0x60C0A9FA)
+I (.\common\cmsis\Device\ARM\CMSDK_CM0\Include\CMSDK_CM0.h)(0x63660EEC)
+I (.\common\cmsis\CMSIS\Include\core_cm0.h)(0x63648DE6)
+I (D:\STM32\KEIL\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (.\common\cmsis\CMSIS\Include\core_cmInstr.h)(0x63648DE6)
+I (.\common\cmsis\CMSIS\Include\core_cmFunc.h)(0x63648DE6)
+I (.\common\cmsis\Device\ARM\CMSDK_CM0\Include\system_CMSDK_CM0.h)(0x63648DE6)
+I (source\sine.h)(0x63648DE2)
+I (source\boost_select.h)(0x64199132)
+F (.\source\boost_select.c)(0x6422FC56)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common\cmsis\CMSIS\Include -I .\common\cmsis\Device\ARM\CMSDK_CM0\Include -I .\common\retarget -I .\source-I D:\灵络\新建文件夹\1、波形发生例程\5、ENS_iftsine_TEST\RTE-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0-D__UVISION_VERSION="518" -D_RTE_ -DARMCM0 -DCORTEX_M0-o .\objects\boost_select.o --omf_browse .\objects\boost_select.crf --depend .\objects\boost_select.d)
+I (D:\STM32\KEIL\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (.\common\cmsis\Device\ARM\CMSDK_CM0\Include\CMSDK_CM0.h)(0x63660EEC)
+I (.\common\cmsis\CMSIS\Include\core_cm0.h)(0x63648DE6)
+I (D:\STM32\KEIL\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (.\common\cmsis\CMSIS\Include\core_cmInstr.h)(0x63648DE6)
+I (.\common\cmsis\CMSIS\Include\core_cmFunc.h)(0x63648DE6)
+I (.\common\cmsis\Device\ARM\CMSDK_CM0\Include\system_CMSDK_CM0.h)(0x63648DE6)
+F (.\common\cmsis\Device\ARM\CMSDK_CM0\Source\ARM\startup_CMSDK_CM0.s)(0x6365EF56)(--cpu Cortex-M0 --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\灵络\新建文件夹\1、波形发生例程\5、ENS_iftsine_TEST\RTE-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "ARMCM0 SETA 1"--list .\listings\startup_cmsdk_cm0.lst --xref -o .\objects\startup_cmsdk_cm0.o --depend .\objects\startup_cmsdk_cm0.d)
+F (.\common\cmsis\Device\ARM\CMSDK_CM0\Source\CMSDK_driver.c)(0x63648DE6)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common\cmsis\CMSIS\Include -I .\common\cmsis\Device\ARM\CMSDK_CM0\Include -I .\common\retarget -I .\source-I D:\灵络\新建文件夹\1、波形发生例程\5、ENS_iftsine_TEST\RTE-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0-D__UVISION_VERSION="518" -D_RTE_ -DARMCM0 -DCORTEX_M0-o .\objects\cmsdk_driver.o --omf_browse .\objects\cmsdk_driver.crf --depend .\objects\cmsdk_driver.d)
+I (.\common\cmsis\Device\ARM\CMSDK_CM0\Include\CMSDK_CM0.h)(0x63660EEC)
+I (.\common\cmsis\CMSIS\Include\core_cm0.h)(0x63648DE6)
+I (D:\STM32\KEIL\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (.\common\cmsis\CMSIS\Include\core_cmInstr.h)(0x63648DE6)
+I (.\common\cmsis\CMSIS\Include\core_cmFunc.h)(0x63648DE6)
+I (.\common\cmsis\Device\ARM\CMSDK_CM0\Include\system_CMSDK_CM0.h)(0x63648DE6)
+F (.\common\cmsis\Device\ARM\CMSDK_CM0\Source\system_CMSDK_CM0.c)(0x63648DE6)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common\cmsis\CMSIS\Include -I .\common\cmsis\Device\ARM\CMSDK_CM0\Include -I .\common\retarget -I .\source-I D:\灵络\新建文件夹\1、波形发生例程\5、ENS_iftsine_TEST\RTE-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0-D__UVISION_VERSION="518" -D_RTE_ -DARMCM0 -DCORTEX_M0-o .\objects\system_cmsdk_cm0.o --omf_browse .\objects\system_cmsdk_cm0.crf --depend .\objects\system_cmsdk_cm0.d)
+I (D:\STM32\KEIL\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (.\common\cmsis\Device\ARM\CMSDK_CM0\Include\CMSDK_CM0.h)(0x63660EEC)
+I (.\common\cmsis\CMSIS\Include\core_cm0.h)(0x63648DE6)
+I (.\common\cmsis\CMSIS\Include\core_cmInstr.h)(0x63648DE6)
+I (.\common\cmsis\CMSIS\Include\core_cmFunc.h)(0x63648DE6)
+I (.\common\cmsis\Device\ARM\CMSDK_CM0\Include\system_CMSDK_CM0.h)(0x63648DE6)
+F (.\common\retarget\uart_stdout.c)(0x6422FC2E)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common\cmsis\CMSIS\Include -I .\common\cmsis\Device\ARM\CMSDK_CM0\Include -I .\common\retarget -I .\source-I D:\灵络\新建文件夹\1、波形发生例程\5、ENS_iftsine_TEST\RTE-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0-D__UVISION_VERSION="518" -D_RTE_ -DARMCM0 -DCORTEX_M0-o .\objects\uart_stdout.o --omf_browse .\objects\uart_stdout.crf --depend .\objects\uart_stdout.d)
+I (.\common\cmsis\Device\ARM\CMSDK_CM0\Include\CMSDK_CM0.h)(0x63660EEC)
+I (.\common\cmsis\CMSIS\Include\core_cm0.h)(0x63648DE6)
+I (D:\STM32\KEIL\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (.\common\cmsis\CMSIS\Include\core_cmInstr.h)(0x63648DE6)
+I (.\common\cmsis\CMSIS\Include\core_cmFunc.h)(0x63648DE6)
+I (.\common\cmsis\Device\ARM\CMSDK_CM0\Include\system_CMSDK_CM0.h)(0x63648DE6)
+F (.\common\retarget\retarget.c)(0x611B6514)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common\cmsis\CMSIS\Include -I .\common\cmsis\Device\ARM\CMSDK_CM0\Include -I .\common\retarget -I .\source-I D:\灵络\新建文件夹\1、波形发生例程\5、ENS_iftsine_TEST\RTE-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM0\Include-I D:\STM32\KEIL\ARM\PACK\ARM\CMSIS\4.5.0-D__UVISION_VERSION="518" -D_RTE_ -DARMCM0 -DCORTEX_M0-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (D:\STM32\KEIL\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (D:\STM32\KEIL\ARM\ARMCC\include\time.h)(0x569DEA3A)
+I (D:\STM32\KEIL\ARM\ARMCC\include\rt_misc.h)(0x569DEA3A)
+I (D:\STM32\KEIL\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (D:\STM32\KEIL\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
